@@ -148,3 +148,16 @@ body>h1 {
 .big-container_4 p{
     color:#E5E7EB;
 }
+
+.copyright {
+    background-color:rgb(7, 16, 66);
+    height:100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.copyright p{
+    color:white;
+}
