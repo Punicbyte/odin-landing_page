@@ -18,7 +18,7 @@ body{
 .the-header {
     display:flex;
     justify-content: space-between;
-    margin-bottom:50px;
+    margin-bottom:100px;
 }
 
 .dark-div_info{
@@ -37,7 +37,7 @@ body{
 
 img {
     width:500px;
-    height:200px;
+    height:300px;
 }
 
 .dark-div_info button{
