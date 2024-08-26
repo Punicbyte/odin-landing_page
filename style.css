@@ -1,0 +1,147 @@
+body{
+    width:100vw;
+}
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.div1-big_container{
+    background-color:#1F2937;
+    padding:20px 300px 150px 400px; 
+    
+}
+
+.the-header {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:50px;
+}
+
+.dark-div_info{
+    width:50%;
+}
+
+.style-links{
+    display:flex;
+    gap:20px;
+}
+
+.dark-div {
+    display:flex;
+    gap:30px;
+}
+
+img {
+    width:500px;
+    height:200px;
+}
+
+.dark-div_info button{
+    background-color:#3882F6;
+    padding:6px 30px 6px 30px;
+    color:white;
+    border-radius:10px;
+    font-weight: bold;
+    margin-top:15px;
+}
+
+.dark-div_info h1{
+    font-size:48px;
+    font-weight:900;
+    color:#F9FAF8
+}
+
+.dark-div_info p,a{
+    color: #e5e7eb;
+    font-size:18px;
+}
+
+.the-header h3{
+    font-size:24px;
+    color:#F9FAF8;
+}
+
+.big-container_2{
+    display:flex;
+    justify-content:center;
+    gap:50px;
+    margin-bottom:100px;
+}
+
+.subsection img{
+    width:200px;
+    height:200px;
+    border:3px solid blue;
+    border-radius:10px;
+}
+
+.subsection{
+    display:flex;
+    flex-direction:column;
+}
+
+.subsection p{
+    max-width:200px;
+    flex-wrap:wrap;
+    text-align:center;
+}
+
+body>h1 {
+    text-align:center;
+    margin:50px 0;
+}
+
+.big-container_3{
+    background-color: #E5E7EB;
+    padding:100px 300px 100px 300px;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight:300;
+    color:#1F2937;
+}
+
+#person{
+    font-style:bold;
+    font-weight:900;   
+    margin-left:auto;
+    font-size:1.3em;
+
+}
+
+.big-container_4{
+    background-color:#3882F6;
+    padding:35px 85px 35px 85px;
+    border-radius:10px;
+    width:70%;
+    margin:100px auto;
+    height:fit-content;
+    display:flex;
+    justify-content:space-around;
+}
+
+.big-container_4 button{
+    background-color:#3882F6;
+    padding:6px 30px 6px 30px;
+    border-color:white;
+    border-radius:10px;
+    font-weight: bold;
+    margin-top:15px;
+}
+
+.big-container_4 button,.big-container_4 h3{
+    color:white;
+}
+
+.big-container_4 p{
+    color:#E5E7EB;
+}
